@@ -1,0 +1,151 @@
+.bigboi-background {
+  background: linear-gradient(#b3ccff, #330033);
+}
+
+.seattle {
+  opacity:0.75;
+}
+.denver {
+  opacity: 0.90
+}
+
+.personal-photo {
+  margin-bottom: -200px;
+}
+
+.name {
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 30px;
+}
+
+
+ .scroll img{
+   border-radius: 50%;
+   width: 100%;
+ }
+ .two.columns p{
+   color: #990033;
+   font-size: 25px
+ }
+
+.personal-photo img  {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: auto;
+  display: block;
+  top: 100px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  background: grey
+}
+
+.nav .button  {
+  height: 45px
+}
+.nav a.button {
+  color: #990033
+}
+
+#scroll   {
+  padding: 0 50px;
+}
+
+
+div .top-img  {
+  width: 100%;
+  height: 300px;
+  /* opacity: 0.7; */
+  max-width: 100%;
+}
+
+.skyline div {
+  margin: 0;
+  width: 50% !important;
+}
+
+.projects{
+  display: flex;
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+}
+
+.projects p {
+  color: white;
+  margin: auto;
+  }
+.containers {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ccc;
+  margin: auto;
+}
+
+.projects .header {
+  margin-left: 5px;
+  color: #990033
+}
+
+.projects .container1 {
+  margin-left: 0
+}
+
+.projects .container1, .projects .container2, .projects .container3 {
+  background-color: grey;
+}
+
+.projectimg {
+  width: 100%;
+}
+
+.bio-exp {
+  width: 100%;
+  height: 732px;
+  display: flex;
+  background-image: url(photos/IMG_3850.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bio  {
+  flex-basis: 50%;
+  color: white;
+}
+.exp  {
+  flex-basis: 50%;
+  color: white;
+}
+.bio h2{
+  text-align: right;
+  margin-right: 60px;
+}
+.bio ul{
+  text-align: right;
+  margin-right: 45px;
+}
+.exp h2, .exp ul {
+  margin-left: 60px;
+}
+
+p {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+}
+.a p {
+  text-align: right;
+}
+.q p  {
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
