@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="site.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="site.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer type="text/javascript" src="site.js"></script>
   </head>
   <body>
     <div class="personal-photo">
@@ -25,8 +25,8 @@
     </div>
     <div id="main" class="nav row">
       <div class="left-half six columns row">
-        <a class="button six columns" href="#">Bio</a>
-        <a class="button six columns" href="#">Experience</a>
+        <a class="button six columns" href="#bio">Bio</a>
+        <a class="button six columns" href="#bio">Experience</a>
       </div>
       <div class="right-half six columns row">
         <a class="button six columns" href="#">Projects</a>
@@ -110,33 +110,39 @@
         <br>
         <br>
       </div>
-      <div class="bio-exp">
+      <div class="bio-exp" id="bio">
         <div class="row">
           <div class="bio six columns">
             <h2>Biography</h2>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>I am a young Full Stack developer currently studying with Galvanize in Seattle</li>
+              <br>
+              <li>I was born and raised in Denver Colorado and the mountains will always be my home</li>
+              <br>
+              <li>I am currently available for employment in the Web Development Industry</li>
             </ul>
           </div>
           <div class="exp six columns">
             <h2>Experience</h2>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Galvanize g82 Full Stack WebDevelopmet Immersive Course Graduate</li>
+              <br>
+              <li>Galvanize Accelerated JavaScript course</li>
+              <br>
+              <li>Hospital Nutrtion Services Rep for Centura Health</li>
             </ul>
           </div>
         </div>
-        <div class="contact-bottom-bar">
+        <div class="contact-bottom-bar row">
+          <div class="contact buttons">
+          <a class="button three columns" href="#"><img class="email-img" src="https://i0.wp.com/pinkeyegraphics.co.uk/wp-content/uploads/Gmail-icon.png?fit=512%2C512&ssl=1" alt="email icon"></a>
+          <a class="button three columns" href="#"><img class="slack-img" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" alt="Slack Icon"></a>
+          <a class="button three columns" href="#"><img class="github-img" src="https://informsuiuc.files.wordpress.com/2016/10/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png?w=1125" alt="github icon"></a>
+          <a class="button three columns" href="#"><img class="linkedin-img" src="https://cdn.worldvectorlogo.com/logos/linkedin.svg" alt="linkedin icon"></a>
 
         </div>
       </div>
+    </div>
 
   </body>
 </html>

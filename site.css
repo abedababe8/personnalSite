@@ -18,6 +18,9 @@
   font-size: 30px;
 }
 
+a {
+  transition: all 300ms ease;
+}
 
  .scroll img{
    border-radius: 50%;
@@ -42,6 +45,7 @@
 .nav {
   position: sticky;
   top: 0;
+  padding: 0 75px;
   height: 45px;
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +79,8 @@ div .top-img  {
 
 .projects{
   display: flex;
-  padding: 0 75px
+  padding: 0 75px;
+  border-radius: 10%
   /* margin-left: 100px !important;
   margin-right: 100px !important; */
 }
@@ -111,10 +116,13 @@ div .top-img  {
 
 .bio-exp {
   width: 100%;
-  height: 732px;
+  height: 627px;
   background-image: url(photos/IMG_3850.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+li  {
+  color: #ffc107
 }
 .bio  {
   color: white;
@@ -128,21 +136,49 @@ div .top-img  {
 }
 .bio ul{
   text-align: right;
-  margin-right: 45px;
+  margin-right: 20px;
+  direction: rtl;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  /* font-style: bold; */
 }
-.exp h2, .exp ul {
+.exp h2 {
   margin-left: 60px;
 }
+.exp ul {
+  margin-left: 60px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  /* font-style: bold; */
+}
 .bio-exp .contact-bottom-bar {
-  width: 75%;
+  width: 50%;
   height: 50px;
   margin: 0 auto;
   background-color: #2c3b70;
   position: relative;
-  top: 405;
+  top: 323;
   border-radius: 50px;
 }
-
+.contact.buttons  {
+  padding: 7 15px
+}
+.slack-img  {
+  height: 35px;
+  width: 35px;
+}
+.github-img  {
+  height: 35px;
+  width: 100px;
+}
+.email-img  {
+  height: 35px;
+  width: 35px;
+}
+.linkedin-img {
+  height: 35px;
+  width: 50px;
+}
 p {
   text-align: center;
   font-family: "Gill Sans", sans-serif;
