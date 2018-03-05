@@ -1,7 +1,18 @@
-.bigboi-background {
+.bigboi-background1 {
   background: linear-gradient(#b3ccff, #330033);
+  /* background: #330033; */
+  transition: 2s all ease;
 }
-
+.bigboi-background2 {
+  background: linear-gradient(#b3ccff, #002533);
+  /* background: #000080; */
+  transition: 2s all ease;
+}
+.bigboi-background3 {
+  background: linear-gradient(#b3ccff, #172029);
+  /* background: #33adff; */
+  transition: 2s all ease;
+}
 .seattle {
   opacity:0.75;
 }
@@ -41,7 +52,6 @@ a {
   position: relative;
   z-index: 10;
 }
-
 .nav {
   position: sticky;
   top: 0;
@@ -97,7 +107,7 @@ div .top-img  {
   margin: auto;
 }
 
-.projects .header {
+.header a{
   margin-left: 5px;
   color: #990033
 }
@@ -114,12 +124,28 @@ div .top-img  {
   width: 100%;
 }
 
-.bio-exp {
+#bio {
   width: 100%;
   height: 627px;
-  background-image: url(photos/IMG_3850.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  z-index: 0;
+
+}
+.text {
+  position: relative;
+}
+.img {
+  position: absolute;
+  width: 100%;
+  height: 627px;
+  display: none;
+  overflow: hidden;
+  transition: 1.5s display ease;
+}
+.img img {
+  width: 100%
+}
+.current-img {
+  display: inline-block;
 }
 li  {
   color: #ffc107
@@ -151,7 +177,7 @@ li  {
   font-size: 15px;
   /* font-style: bold; */
 }
-.bio-exp .contact-bottom-bar {
+.contact-bottom-bar {
   width: 50%;
   height: 50px;
   margin: 0 auto;
@@ -159,6 +185,7 @@ li  {
   position: relative;
   top: 323;
   border-radius: 50px;
+  z-index: 99;
 }
 .contact.buttons  {
   padding: 7 15px
